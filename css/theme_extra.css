@@ -51,6 +51,15 @@ h3, h4, h5, h6 {
 }
 
 /*
+ * Add support for really long tables.
+ *
+ */
+
+table {
+    overflow: auto; 
+}
+
+/*
  * Fix wrapping in the code highlighting
  *
  * https://github.com/mkdocs/mkdocs/issues/233
